@@ -11,3 +11,68 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  font-size: 3.9rem;
+  font-weight: 4000;
+  color: white;
+  text-align: center
+}
+
+.redGradient {
+  background: linear-gradient(to bottom, #ff002f,  #e9263d,#e96868);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+  background-clip: text; /* For non-WebKit browsers */
+}
+
+.blueGradient {
+  background: linear-gradient(to bottom, #007bff,  #2192ef,#80f4e7);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+  background-clip: text; /* For non-WebKit browsers */
+}
+
+.virtual-museum {
+  position: relative;
+  margin-top: 10px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App {
+  position: absolute;
+  width: 100vw;
+  height: 300vh;
+  background: linear-gradient(to bottom, #191920, #191920);
+}
+
+.sect {
+  margin: 8%;
+  padding: 0px;
+}
+
+.sectcover {
+  top: 0vh;
+ padding-top: 1px;
+  position: relative;
+  height: 400vh;
+  width: 100%;
+  background-color: #0a0a0d;
+}
+
+.gradient-text {
+  font-size: 50px; /* Adjust font size as needed */
+  font-weight: bold; /* Make it bold */
+  background: linear-gradient(to bottom, #e100ff,  #e100ff,#72c2ee);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+  background-clip: text; /* For non-WebKit browsers */
+}
+
+p {
+  font-size: 20px;
+  color: #fff;
+  margin: 3%;
+  z-index: 2;
+}
