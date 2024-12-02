@@ -8,7 +8,7 @@ export const Patriots = () => {
       position: [0, 0, 2.5],
       size: [1, 1.31],
       rotation: [0, 0, 0],
-      url: "PaulRevereBostonMassacre.webp",
+      url: "PaulRevereBostonMassacre.png",
       viewname: `"Boston Massacre"\nBy Paul Revere`,
     },
     // Left
@@ -16,14 +16,14 @@ export const Patriots = () => {
       position: [-2, 0, 2.75],
       rotation: [0, Math.PI / 4.5, 0],
       size: [1.61, 1.41],
-      url: "JoinorDie.webp",
+      url: "JoinorDie.png",
       viewname: `"Join or Die"\nBy Ben Franklin`,
     },
     {
       position: [2, 0, 2.75],
       rotation: [0, -Math.PI / 4.5, 0],
       size: [1.4, 1.5],
-      url: "BostoniansInDistress.webp",
+      url: "BostoniansInDistress.png",
       viewname: `"Bostonians in Distress"\nBy Robert Sayer`,
     },
     {
