@@ -103,7 +103,6 @@ h1 {
 }
 
 .homepage {
-  background-image: url('../public/backgroundHomepage.webp');
   background-size: cover;
   background-position: center;
   overflow-y: hidden;
