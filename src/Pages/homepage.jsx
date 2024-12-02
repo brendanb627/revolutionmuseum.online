@@ -1,89 +1,47 @@
-import React from "react";
-import { VirtualMuseum } from "../Components/virtual-museum";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate instead of useHistory
+import AnimateNorthernLights from "../Components/animate-northern-lights";
+
+const topics = [
+  { title: "NATIVE AMERICANS", path: "/native-americans" },
+  { title: "PATRIOTS", path: "/patriots" },
+  { title: "LOYALISTS", path: "/loyalists" },
+];
 
 export const HomePage = () => {
-  const images = [
-    // Front
-    {
-      position: [0, 0, 1.5],
-      rotation: [0, 0, 0],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture1",
-    },
-    // Back
-    {
-      position: [-0.8, 0, -0.6],
-      rotation: [0, 0, 0],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture2",
-    },
-    {
-      position: [0.8, 0, -0.6],
-      rotation: [0, 0, 0],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture3",
-    },
-    // Left
-    {
-      position: [-1.75, 0, 0.25],
-      rotation: [0, Math.PI / 2.5, 0],
-      url: "logo512.png",
-    },
-    {
-      position: [-2.15, 0, 1.5],
-      rotation: [0, Math.PI / 2.5, 0],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture4",
-    },
-    {
-      position: [-2, 0, 2.75],
-      rotation: [0, Math.PI / 2.5, 0],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture5",
-    },
-    // Right
-    {
-      position: [1.75, 0, 0.25],
-      rotation: [0, -Math.PI / 2.5, 0],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture6",
-    },
-    {
-      position: [2.15, 0, 1.5],
-      rotation: [0, -Math.PI / 2.5, 0],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture7",
-    },
-    {
-      position: [2, 0, 2.75],
-      rotation: [0, -Math.PI / 2.5, 0],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: `picture8\nThis is a picture`,
-    },
-  ];
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const navigate = useNavigate(); // Use useNavigate
+
+  const handleArrowClick = (direction) => {
+    if (direction === "left") {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === 0 ? topics.length - 1 : prevIndex - 1
+      );
+    } else if (direction === "right") {
+      setCurrentIndex((prevIndex) =>
+        prevIndex === topics.length - 1 ? 0 : prevIndex + 1
+      );
+    }
+  };
+
+  const handleDivClick = () => {
+    navigate(topics[currentIndex].path);
+  };
 
   return (
-    <div className="App">
-      <h1><span className="redGradient">Revolutionists</span> VS. <span className="blueGradient">Loyalists</span></h1>
-      <div className="sect">
-        <h2 className="gradient-text">Overview</h2>
-        <p>
-          This is a virtual museum. It is a 3D space where you can view images
-          from
-        </p>
+    <div className="homeBackground">
+      <AnimateNorthernLights />
+      <div className="arrow left" onClick={() => handleArrowClick("left")}>
+        &lt;
       </div>
-      <div className="virtual-museum">
-        <VirtualMuseum images={images} />
+      <div className="titlehome">What did the</div>
+      <div className="titlehome3" onClick={handleDivClick}>
+        {topics[currentIndex].title}
       </div>
-      <div className="sectcover">
-        <div className="sect">
-        <h2 className="gradient-text">Sources</h2>
-        <p>
-            The images used in this virtual museum are from the following sources:
-            www.example.com
-        </p>
-        </div>
-        </div>
+      <div className="titlehome2">think about the American Revolution?</div>
+      <div className="arrow right" onClick={() => handleArrowClick("right")}>
+        &gt;
+      </div>
     </div>
   );
 };

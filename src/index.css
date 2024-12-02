@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'homeFont'; /* This is the name you will use to refer to the font */
+  src: url('../public/Raleway-VariableFont_wght.ttf') format('truetype'); /* Path to your font file */
+  font-weight: 200; /* Specify the font weight */
+  font-style: normal; /* Specify the font style */
+}
+
+@font-face {
+  font-family: 'titleFont'; /* This is the name you will use to refer to the font */
+  src: url('../public/ArchivoBlack-Regular.ttf') format('truetype'); /* Path to your font file */
+  font-weight: 200; /* Specify the font weight */
+  font-style: normal; /* Specify the font style */
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,6 +26,8 @@ code {
     monospace;
 }
 
+
+
 h1 {
   font-size: 3.9rem;
   font-weight: 4000;
@@ -19,11 +35,100 @@ h1 {
   text-align: center
 }
 
+.homeBackground {
+  background-color: #000;
+  position: absolute;
+  z-index: 0;
+  overflow-y: hidden;
+}
+
+.titlehome {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  top: 20%;
+  z-index: 0;
+  font-size: 40px;
+  color: #fff;
+  font-family: homeFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 24px; /* Adjust size as needed */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white; /* Color of the arrows */
+  z-index: 1; /* Ensure arrows are above other elements */
+}
+
+.arrow.left {
+  left: 40px; /* Position the left arrow */
+  font-size: 6vw;
+  color: #595757;
+}
+
+.arrow.right {
+  right: 10px; /* Position the right arrow */
+  font-size: 6vw;
+  color: #595757;
+}
+
+.titlehome3 {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  top: 43%;
+  z-index: 0;
+  font-size: 6vw;
+  color: #d5990c00;
+  text-shadow: 1px 0px 5px rgb(192, 51, 223);
+  font-family: titleFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titlehome2 {
+  position: absolute;
+  text-align: center;
+  top: 75%;
+  width: 100vw;
+  z-index: 0;
+  font-size: 40px;
+  color: #fff;
+  font-family: homeFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.homepage {
+  background-image: url('../public/backgroundHomepage.webp');
+  background-size: cover;
+  background-position: center;
+  overflow-y: hidden;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10000;
+}
+
+.App-header {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  height: 17vh;
+  text-align: center;
+  align-items: center;
+  background-color: #08090b;
+  z-index: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.567);
+}
+
 .redGradient {
   background: linear-gradient(to bottom, #ff002f,  #e9263d,#e96868);
   -webkit-background-clip: text; /* Clip the background to the text */
   -webkit-text-fill-color: transparent; /* Make the text color transparent */
   background-clip: text; /* For non-WebKit browsers */
+  z-index: 10;
+  top: -10vh;
 }
 
 .blueGradient {
@@ -48,7 +153,7 @@ h1 {
 }
 
 .sect {
-  margin: 8%;
+  margin: 9%;
   padding: 0px;
 }
 
@@ -58,7 +163,7 @@ h1 {
   position: relative;
   height: 400vh;
   width: 100%;
-  background-color: #0a0a0d;
+  background-color: #000000;
 }
 
 .gradient-text {

@@ -28,11 +28,11 @@ export const VirtualMuseum = ({ images }) => (
           mixBlur={1}
           mixStrength={80}
           roughness={1}
-          depthScale={1.2}
+          depthScale={1.0}
           minDepthThreshold={0.4}
           maxDepthThreshold={1.4}
           color="#050505"
-          metalness={0.5}
+          metalness={0.9}
         />
       </mesh>
     </group>
@@ -53,7 +53,8 @@ function Frames({
     clicked.current = ref.current.getObjectByName(params?.id);
     if (clicked.current) {
       clicked.current.parent.updateWorldMatrix(true, true);
-      clicked.current.parent.localToWorld(p.set(0, GOLDENRATIO / 2, 1.25));
+      clicked.current.parent.localToWorld(p.set(0, GOLDENRATIO / 2, clicked.current.viewname == "" ? 0.7 : 1.25));
+      console.log(clicked.current)
       clicked.current.parent.getWorldQuaternion(q);
     } else {
       p.set(0, 0, 5.5);
@@ -61,8 +62,8 @@ function Frames({
     }
   });
   useFrame((state, dt) => {
-    easing.damp3(state.camera.position, p, 0.4, dt);
-    easing.dampQ(state.camera.quaternion, q, 0.4, dt);
+    easing.damp3(state.camera.position, p, 0.8, dt);
+    easing.dampQ(state.camera.quaternion, q, 0.8, dt);
   });
   return (
     <group
@@ -76,7 +77,7 @@ function Frames({
       onPointerMissed={() => setLocation("/")}
     >
       {images.map(
-        (props) => <Frame key={props.url} {...props} /> /* prettier-ignore */
+        (props) => <Frame key={props.url} {...props} />
       )}
     </group>
   );
@@ -90,6 +91,7 @@ function Frame({ url, c = new THREE.Color(), ...props }) {
   const [rnd] = useState(() => Math.random());
   const name = getUuid(url);
   const viewname = props.viewname
+  const size = [props.size[0], props.size[1], 0.05]
   const isActive = params?.id === name;
   useCursor(hovered);
   useFrame((state, dt) => {
@@ -116,7 +118,7 @@ function Frame({ url, c = new THREE.Color(), ...props }) {
         name={name}
         onPointerOver={(e) => (e.stopPropagation(), hover(true))}
         onPointerOut={() => hover(false)}
-        scale={[1, 1.61, 0.05]}
+        scale={size}
         position={[0, 1.61 / 2, 0]}
         viewname={props.viewname}
       >
@@ -144,11 +146,11 @@ function Frame({ url, c = new THREE.Color(), ...props }) {
         />
       </mesh>
       <Text
-        maxWidth={0.1}
+        maxWidth={0.5}
         anchorX="left"
         anchorY="top"
-        position={[0.55, GOLDENRATIO, 0]}
-        fontSize={0.025}
+        position={[size[0] / 1.85, 1.61  + ((size[1] - 1.61) / 2), 0]}
+        fontSize={0.035}
       >
         {viewname}
       </Text>
