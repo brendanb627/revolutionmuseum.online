@@ -16,7 +16,7 @@ export const Patriots = () => {
       position: [-2, 0, 2.75],
       rotation: [0, Math.PI / 4.5, 0],
       size: [1.61, 1.41],
-      url: "JoinorDie.png",
+      url: "JoinOrDie.png",
       viewname: `"Join or Die"\nBy Ben Franklin`,
     },
     {
