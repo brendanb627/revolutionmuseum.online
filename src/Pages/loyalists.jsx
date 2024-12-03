@@ -5,77 +5,57 @@ export const Loyalists = () => {
   const images = [
     // Front
     {
-      position: [0, 0, 1.5],
-      size: [1, 1.61],
+      position: [-0.15, 0, 2.5],
+      size: [1.3, 1.31],
       rotation: [0, 0, 0],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture1",
-    },
-    // Back
-    {
-      position: [-0.8, 0, -0.6],
-      rotation: [0, 0, 0],
-      size: [1, 1.61],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture2",
-    },
-    {
-      position: [0.8, 0, -0.6],
-      rotation: [0, 0, 0],
-      size: [1, 1.61],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture3",
+      url: "TheBritishLion.jpg",
+      viewname: `"The British Lion"\nBy Barrow, J.`,
     },
     // Left
     {
-      position: [-1.75, 0, 0.25],
-      rotation: [0, Math.PI / 2.5, 0],
-      size: [1.5, 1.5],
-      url: "logo512.png",
-      viewname: 'React logo',
-    },
-    {
-      position: [-2.15, 0, 1.5],
-      rotation: [0, Math.PI / 2.5, 0],
-      size: [1, 1.61],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture4",
-    },
-    {
       position: [-2, 0, 2.75],
-      rotation: [0, Math.PI / 2.5, 0],
-      size: [1, 1.61],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture5",
-    },
-    // Right
-    {
-      position: [1.75, 0, 0.25],
-      rotation: [0, -Math.PI / 2.5, 0],
-      size: [1, 1.61],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture6",
-    },
-    {
-      position: [2.15, 0, 1.5],
-      rotation: [0, -Math.PI / 2.5, 0],
-      size: [1, 1.61],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: "picture7",
+      rotation: [0, Math.PI / 4.5, 0],
+      size: [1.61, 1.41],
+      url: "LoyalistViewColonists.jpg",
+      viewname: `"Tarring and Feathering"\nBy Philip Dawes`,
     },
     {
       position: [2, 0, 2.75],
-      rotation: [0, -Math.PI / 2.5, 0],
-      size: [1, 1.61],
-      url: "https://photographylife.com/wp-content/uploads/2023/05/Nikon-Z8-Official-Samples-00002.jpg",
-      viewname: `picture8\nThis is a picture`,
+      rotation: [0, -Math.PI / 4.5, 0],
+      size: [1.4, 1.2],
+      url: "NativesAttackingLoyalists.jpg",
+      viewname: `"Shelb-ns Sacrifice"\nBy Robert Sayer`,
+    },
+    {
+      position: [2.0434 * 1.4, 0, 2.8519 * 1.2],
+      rotation: [0, -Math.PI / 4.5, 0],
+      size: [0.7, 0.8],
+      url: "ExampleText.png",
+      isPrint: true,
+      viewname: ``,
+    },
+    {
+      position: [-2.0434 * 1.45, 0, 2.8519 * 1.225],
+      rotation: [0, Math.PI / 4.5, 0],
+      size: [0.7, 0.8],
+      url: "ExampleText.png",
+      isPrint: true,
+      viewname: ``,
+    },
+    {
+      position: [0.9, 0, 2.5],
+      rotation: [0, 0, 0],
+      size: [0.7, 0.8],
+      url: "ExampleText.png",
+      isPrint: true,
+      viewname: ``,
     },
   ];
 
   return (
     <div className="App">
       <div className="App-header">
-      <h1><span className="blueGradient">Loyalists</span></h1>
+      <h1><span className="blueGradient">Loyalists</span> view on the American Revolution</h1>
       </div>
       <div className="sect">
         <h2 className="gradient-text">Overview</h2>

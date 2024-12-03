@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import { Patriots } from "./Pages/patriots";
 import { Loyalists } from "./Pages/loyalists";
 import { AntiFederalists } from "./Pages/anti-federalists";
-import { Federalists } from "./Pages/federalists";
+import { NativeAmericans } from "./Pages/native-americans";
 import { HomePage } from "./Pages/homepage";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Route path="/" element={<HomePage />} />
         <Route path="/patriots" element={<Patriots />} />
         <Route path="/loyalists" element={<Loyalists />} />
-        <Route path="/native-americans" element={<Federalists />} />
+        <Route path="/native-americans" element={<NativeAmericans />} />
       </Routes>
     </BrowserRouter>
   );
