@@ -30,7 +30,7 @@ export const Patriots = () => {
       position: [2.0434 * 1.4, 0, 2.8519 * 1.2],
       rotation: [0, -Math.PI / 4.5, 0],
       size: [0.7, 0.8],
-      url: "ExampleText.png",
+      url: "patriot-Distress.png",
       isPrint: true,
       viewname: ``,
     },
@@ -38,7 +38,7 @@ export const Patriots = () => {
       position: [-2.0434 * 1.45, 0, 2.8519 * 1.225],
       rotation: [0, Math.PI / 4.5, 0],
       size: [0.7, 0.8],
-      url: "ExampleText.png",
+      url: "patriot-Join.png",
       isPrint: true,
       viewname: ``,
     },
@@ -46,7 +46,7 @@ export const Patriots = () => {
       position: [0.9, 0, 2.5],
       rotation: [0, 0, 0],
       size: [0.7, 0.8],
-      url: "ExampleText.png",
+      url: "patriot-paulMassacre.png",
       isPrint: true,
       viewname: ``,
     },
@@ -55,28 +55,44 @@ export const Patriots = () => {
   return (
     <div className="App">
       <div className="App-header">
-      <h1><span className="redGradient">Patriots</span></h1>
-      </div>
-      <div className="sect">
-        <h2 className="gradient-text">Overview</h2>
-        <p>
-          This is a virtual museum. It is a 3D space where you can view images
-          from
-        </p>
+        <h1>
+          <span className="redGradient">Patriots</span>
+        </h1>
       </div>
       <div className="virtual-museum">
         <VirtualMuseum images={images} />
       </div>
       <div className="sectcover">
         <div className="sect">
-        <h2 className="gradient-text">Image Sources</h2>
-        <p>
-            The images used in this virtual museum are from the following sources:<br/><br/>
-            Robert Sayer And John Bennett , Publisher. <i>The Bostonians in Distress</i>. London: Printed for R. Sayer and J. Bennett, Map & Printsellers, No. 53 Fleet Street, 
-            as the Act directs, Novr. 19. Photograph. Retrieved from the Library of Congress, <a href='https://www.loc.gov/item/2004673305' target="_blank">www.loc.gov/item/2004673305</a>.
-        </p>
+          <h2 className="gradient-text">Image Sources</h2>
+          <p>
+            The images used in this virtual museum are from the following
+            sources:
+            <br />
+            <br />
+            Robert Sayer And John Bennett , Publisher.{" "}
+            <i>The Bostonians in Distress</i>. London: Printed for R. Sayer and
+            J. Bennett, Map & Printsellers, No. 53 Fleet Street, as the Act
+            directs, Novr. 19. Photograph. Retrieved from the Library of
+            Congress,{" "}
+            <a href="https://www.loc.gov/item/2004673305" target="_blank">
+              www.loc.gov/item/2004673305
+            </a><br/><br/>
+            Revere, Paul, Engraver. The bloody massacre perpetrated in King
+            Street Boston on March 5th by a party of the 29th Regt. Boston:
+            Engrav'd Printed & Sold by Paul Revere. Photograph. Retrieved from
+            the Library of Congress,{" "}
+            <a href="https://www.loc.gov/item/2008661777" target="_blank">
+              www.loc.gov/item/2008661777.
+            </a><br/><br/>
+            Franklin, Benjamin. Join or Die. [May 9] Photograph. Retrieved from
+            the Library of Congress,{" "}
+            <a href="https://www.loc.gov/item/2002695523" target="_blank">
+              www.loc.gov/item/2002695523
+            </a>
+          </p>
         </div>
-        </div>
+      </div>
     </div>
   );
 };

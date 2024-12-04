@@ -1,47 +1,171 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom"; // Import useNavigate instead of useHistory
-import AnimateNorthernLights from "../Components/animate-northern-lights";
+import React from 'react';
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { Box, Button, Typography, CssBaseline, ThemeProvider, createTheme } from '@mui/material';
 
-const topics = [
-  { title: "NATIVE AMERICANS", path: "/native-americans" },
-  { title: "PATRIOTS", path: "/patriots" },
-  { title: "LOYALISTS", path: "/loyalists" },
-];
+const theme = createTheme({
+  palette: {
+    mode: 'dark',
+    background: {
+      default: '#333',
+      paper: '#444',
+    },
+    text: {
+      primary: '#fff',
+      secondary: '#ccc',
+    },
+  },
+});
 
 export const HomePage = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const navigate = useNavigate(); // Use useNavigate
-
-  const handleArrowClick = (direction) => {
-    if (direction === "left") {
-      setCurrentIndex((prevIndex) =>
-        prevIndex === 0 ? topics.length - 1 : prevIndex - 1
-      );
-    } else if (direction === "right") {
-      setCurrentIndex((prevIndex) =>
-        prevIndex === topics.length - 1 ? 0 : prevIndex + 1
-      );
-    }
-  };
-
-  const handleDivClick = () => {
-    navigate(topics[currentIndex].path);
-  };
-
   return (
-    <div className="homeBackground">
-      <AnimateNorthernLights />
-      <div className="arrow left" onClick={() => handleArrowClick("left")}>
-        &lt;
-      </div>
-      <div className="titlehome">What did the</div>
-      <div className="titlehome3" onClick={handleDivClick}>
-        {topics[currentIndex].title}
-      </div>
-      <div className="titlehome2">think about the American Revolution?</div>
-      <div className="arrow right" onClick={() => handleArrowClick("right")}>
-        &gt;
-      </div>
-    </div>
+    <Box className='homepage1' sx={{ padding: 0, textAlign: 'left' }}>
+      <Typography variant="h4" gutterBottom className='App-header'>
+        The Different points of view in American history
+      </Typography>
+      <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'left' }}>
+        {/* First Row with 3 Boxes */}
+        <Box sx={{ display: 'flex', justifyContent: 'center', width: '100vw', marginBottom: 3 }}>
+        <Box
+       
+              sx={{
+                backgroundColor: '#21262a;',
+                border: '1px solid #55A',
+                borderRadius: 2,
+                margin: 2,
+                padding: 3,
+                width: '30vw',
+              }}
+            >
+              <Typography variant="h4" sx={{color: '#fff', fontWeight: 600, }}><span className='redGradient'>Patriots</span> </Typography>
+              <Typography variant="body2">Learn about their view on the American Revolution through different primary sources</Typography>
+              <Link to={`/patriots`}>
+                <Button variant="contained" sx={{ marginTop: 1 }}>
+                  Learn more 
+                </Button>
+              </Link>
+            </Box>
+            <Box
+       
+              sx={{
+                backgroundColor: '#21262a;',
+                border: '1px solid #55A',
+                borderRadius: 2,
+                margin: 2,
+                padding: 3,
+                width: '30vw',
+              }}
+            >
+              <Typography variant="h4" sx={{color: '#F5F', fontWeight: 600, }}>Native Americans </Typography>
+              <Typography variant="body2" sx={{color: '#fff'}}>Learn about their view on the American Revolution through different primary sources</Typography>
+              <Link to={`/native-americans`}>
+                <Button variant="contained" sx={{ marginTop: 1 }}>
+                  Learn More 
+                </Button>
+              </Link>
+            </Box>
+            <Box
+       
+              sx={{
+                backgroundColor: '#21262a;',
+                border: '1px solid #55A',
+                borderRadius: 2,
+                margin: 2,
+                padding: 3,
+                width: '30vw',
+              }}
+            >
+              <Typography variant="h4" sx={{color: '#fff', fontWeight: 600, }}><span className='blueGradient'>Loyalists</span> </Typography>
+              <Typography variant="body2">Learn about their view on the American Revolution through different primary sources</Typography>
+              <Link to={`/loyalists`}>
+                <Button variant="contained" sx={{ marginTop: 1 }}>
+                  Learn more 
+                </Button>
+              </Link>
+            </Box>
+        </Box>
+
+        {/* Second Row with 2 Boxes */}
+        <Box sx={{ display: 'flex', justifyContent: 'center', width: '100vw', marginBottom: 3 }}>
+        <Box
+
+              sx={{
+                backgroundColor: '#21262a',
+                border: '1px solid #55A',
+                borderRadius: 2,
+                margin: 2,
+                padding: 3,
+                width: '47vw',
+              }}
+            >
+              <Typography variant="h4" sx={{color: '#F5F', fontWeight: 600, }}><span className='redGradient'>Anti-Federalists</span> </Typography>
+              <Typography variant="body2">Learn about the Anti-Federalist POV through different primary sources</Typography>
+              <Link to={`/not-finished`}>
+                <Button variant="contained" sx={{ marginTop: 1 }}>
+                  Go to Page 
+                </Button>
+              </Link>
+            </Box>
+            <Box
+
+              sx={{
+                backgroundColor: '#21262a',
+                border: '1px solid #55A',
+                borderRadius: 2,
+                margin: 2,
+                padding: 3,
+                width: '47vw',
+              }}
+            >
+              <Typography variant="h4" sx={{color: '#F5F', fontWeight: 600, }}><span className='blueGradient'>Federalists</span> </Typography>
+              <Typography variant="body2">Learn about the Federalist POV through different primary sources</Typography>
+              <Link to={`/federalists`}>
+                <Button variant="contained" sx={{ marginTop: 1 }}>
+                  Go to Page 
+                </Button>
+              </Link>
+            </Box>
+        </Box>
+
+        {/* Third Row with 2 Boxes */}
+        <Box sx={{ display: 'flex', justifyContent: 'center', width: '100vw' }}>
+        <Box
+              sx={{
+                backgroundColor: '#21262a',
+                border: '1px solid #55A',
+                borderRadius: 2,
+                margin: 2,
+                padding: 3,
+                width: '47vw',
+              }}
+            >
+              <Typography variant="h4" sx={{color: '#F5F', fontWeight: 600, }}>Anti-Abolitionists</Typography>
+              <Typography variant="body2">Learn about the Anti-Abolotionist POV through different primary sources</Typography>
+              <Link to={`/not-finished`}>
+                <Button variant="contained" sx={{ marginTop: 1 }}>
+                  Go to Page 
+                </Button>
+              </Link>
+            </Box>
+            <Box
+              sx={{
+                backgroundColor: '#21262a',
+                border: '1px solid #55A',
+                borderRadius: 2,
+                margin: 2,
+                padding: 3,
+                width: '47vw',
+              }}
+            >
+              <Typography variant="h4" sx={{color: '#F5F', fontWeight: 600, }}>Abolitionists</Typography>
+              <Typography variant="body2">Learn about the abolitionist POV through different primary sources</Typography>
+              <Link to={`/abolitionists`}>
+                <Button variant="contained" sx={{ marginTop: 1 }}>
+                  Go to Page 
+                </Button>
+              </Link>
+            </Box>
+        </Box>
+      </Box>
+    </Box>
   );
 };

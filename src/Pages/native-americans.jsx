@@ -22,14 +22,14 @@ export const NativeAmericans = () => {
       position: [2.35, 0, 2.4],
       rotation: [0, -Math.PI / 5.5, 0],
       size: [0.7, 0.8],
-      url: "ExampleText.png",
+      url: "native-John.png",
       viewname: ``,
     },
     {
       position: [-2.35, 0, 2.4],
       rotation: [0, Math.PI / 5.5, 0],
       size: [0.7, 0.8],
-      url: "ExampleText.png",
+      url: "native-Brant.png",
       viewname: ``,
     },
   ];
@@ -37,27 +37,47 @@ export const NativeAmericans = () => {
   return (
     <div className="App">
       <div className="App-header">
-      <h1><span className="blueGradient">Native Americans</span> view on the Revolution</h1>
-      </div>
-      <div className="sect">
-        <h2 className="gradient-text">Overview</h2>
-        <p>
-          This is a virtual museum. It is a 3D space where you can view images
-          from
-        </p>
+        <h1>
+          <span className="blueGradient">Native Americans</span> view on the
+          Revolution
+        </h1>
       </div>
       <div className="virtual-museum">
         <VirtualMuseum images={images} />
       </div>
       <div className="sectcover">
         <div className="sect">
-        <h2 className="gradient-text">Image Sources</h2>
-        <p>
-            The images used in this virtual museum are from the following sources:
-            www.example.com
-        </p>
+          <h2 className="gradient-text">Image Sources</h2>
+          <p>
+            The images used in this virtual museum are from the following
+            sources:
+            <br />
+            <br />
+            Stuart, Gilbert. “Portrait of Joseph Brant by Gilbert Stuart.” Fine
+            Art America.{" "}
+            <a
+              href="https://fineartamerica.com/featured/portrait-of-joseph-brant-gilbert-stuart.html"
+              target="_blank"
+            >
+              fineartamerica.com/featured/portrait-of-joseph-brant-gilbert-stuart.html
+            </a>
+            . Accessed 3 Dec. 2024.
+            <br />
+            <br />
+            “A 1912 Tribute to Chief Shenendoah - Oneida Indian Nation.” Oneida
+            Indian Nation, 29 Jan. 2024.{" "}
+            <a
+              href="https://www.oneidaindiannation.com/a-1912-tribute-to-chief-shenendoah/"
+              target="_blank"
+            >
+              www.oneidaindiannation.com/a-1912-tribute-to-chief-shenendoah/
+            </a>
+            .
+            <br />
+            <br />
+          </p>
         </div>
-        </div>
+      </div>
     </div>
   );
 };
