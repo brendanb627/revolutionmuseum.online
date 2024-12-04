@@ -38,8 +38,7 @@ export const NativeAmericans = () => {
     <div className="App">
       <div className="App-header">
         <h1>
-          <span className="blueGradient">Native Americans</span> view on the
-          Revolution
+          <span className="blueGradient">Native American's</span>POV
         </h1>
       </div>
       <div className="virtual-museum">
@@ -75,6 +74,12 @@ export const NativeAmericans = () => {
             .
             <br />
             <br />
+          </p>
+        </div>
+        <div className="sect">
+          <h2 className="gradient-text">Text Sources</h2>
+          <p>
+            
           </p>
         </div>
       </div>

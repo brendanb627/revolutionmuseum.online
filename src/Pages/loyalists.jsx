@@ -105,6 +105,12 @@ export const Loyalists = () => {
             <br />
           </p>
         </div>
+        <div className="sect">
+          <h2 className="gradient-text">Text Sources</h2>
+          <p>
+            
+          </p>
+        </div>
       </div>
     </div>
   );

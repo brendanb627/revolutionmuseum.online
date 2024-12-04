@@ -62,6 +62,12 @@ export const Abolitionists = () => {
             Accessed 3 Dec. 2024.
           </p>
         </div>
+        <div className="sect">
+          <h2 className="gradient-text">Text Sources</h2>
+          <p>
+            
+          </p>
+        </div>
       </div>
     </div>
   );

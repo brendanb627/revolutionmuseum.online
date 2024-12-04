@@ -56,7 +56,7 @@ export const Patriots = () => {
     <div className="App">
       <div className="App-header">
         <h1>
-          <span className="redGradient">Patriots</span>
+          <span className="redGradient">Patriot's</span>POV
         </h1>
       </div>
       <div className="virtual-museum">
@@ -90,6 +90,12 @@ export const Patriots = () => {
             <a href="https://www.loc.gov/item/2002695523" target="_blank">
               www.loc.gov/item/2002695523
             </a>
+          </p>
+        </div>
+        <div className="sect">
+          <h2 className="gradient-text">Text Sources</h2>
+          <p>
+            
           </p>
         </div>
       </div>

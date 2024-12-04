@@ -48,18 +48,84 @@ export const Federalists = () => {
         <div className="sect">
           <h2 className="gradient-text">Image Sources</h2>
           <p>
-          The images used in this virtual museum are from the following
+            The images used in this virtual museum are from the following
             sources:
             <br />
             <br />
             “A Peep into the Antifederal Club. [Graphic].” Library Company of
             Philadelphia Digital Collections,
-            <a href="https://digital.librarycompany.org/islandora/object/Islandora%3A65130">digital.librarycompany.org/islandora/object/Islandora%3A65130.</a>
+            <a href="https://digital.librarycompany.org/islandora/object/Islandora%3A65130">
+              digital.librarycompany.org/islandora/object/Islandora%3A65130.
+            </a>
             Accessed 3 Dec. 2024.
             <br />
             <br />
             “The Federal Pillars.” Library of Congress, 1 Jan. 1788,
-            <a href="https://www.loc.gov/pictures/resource/cph.3a45782/">www.loc.gov/pictures/resource/cph.3a45782/.</a>
+            <a href="https://www.loc.gov/pictures/resource/cph.3a45782/">
+              www.loc.gov/pictures/resource/cph.3a45782/.
+            </a>
+          </p>
+        </div>
+        <div className="sect">
+          <h2 className="gradient-text">Text Sources</h2>
+          <p>
+            The text used in this virtual museum are from the following sources:
+            <br />
+            <br />
+            Germain, Edward. “American Revolution Political Cartoons: 9
+            Examples.” AmericanRevolution.Org.{" "}
+            <a
+              href="https://www.americanrevolution.org/american-revolution-political-cartoons/"
+              target="_blank"
+            >
+              www.americanrevolution.org/american-revolution-political-cartoons/
+            </a>
+            . Accessed 3 Dec. 2024.
+            <br />
+            <br />
+            “Massachusetts Historical Society. Founded 1791.” MHS Collections
+            Online: The Bostonians Paying the Excise-Man or Tarring &
+            Feathering; Copied on Stone by D. C. Johnston from a Print Published
+            in London in 1774.{" "}
+            <a
+              href="https://www.masshist.org/database/viewer.php?item_id=6626&pid=3"
+              target="_blank"
+            >
+              www.masshist.org/database/viewer.php?item_id=6626&pid=3
+            </a>
+            . Accessed 3 Dec. 2024.
+            <br />
+            <br />
+            Britannica, The Editors of Encyclopaedia. "Loyalist." Encyclopedia
+            Britannica, 25 Nov. 2024.{" "}
+            <a href="https://www.britannica.com/topic/loyalist" target="_blank">
+              www.britannica.com/topic/loyalist
+            </a>
+            . Accessed 3 Dec. 2024.
+            <br />
+            <br />
+            Germain, Edward. “American Revolution Propaganda: Examples &
+            Themes.” AmericanRevolution.Org.{" "}
+            <a
+              href="https://www.americanrevolution.org/propaganda/"
+              target="_blank"
+            >
+              www.americanrevolution.org/propaganda/
+            </a>
+            . Accessed 3 Dec. 2024.
+            <br />
+            <br />
+            “The British Lion Engaging Four Powers: Royal Museums Greenwich.”
+            The British Lion Engaging Four Powers | Royal Museums Greenwich.{" "}
+            <a
+              href="https://www.rmg.co.uk/collections/objects/rmgc-object-128053"
+              target="_blank"
+            >
+              www.rmg.co.uk/collections/objects/rmgc-object-128053
+            </a>
+            . Accessed 3 Dec. 2024.
+            <br />
+            <br />
           </p>
         </div>
       </div>
