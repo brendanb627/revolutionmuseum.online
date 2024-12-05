@@ -1,28 +1,28 @@
 @font-face {
-  font-family: 'homeFont'; /* This is the name you will use to refer to the font */
-  src: url('../public/Raleway-VariableFont_wght.ttf') format('truetype'); /* Path to your font file */
+  font-family: "homeFont"; /* This is the name you will use to refer to the font */
+  src: url("../public/Raleway-VariableFont_wght.ttf") format("truetype"); /* Path to your font file */
   font-weight: 200; /* Specify the font weight */
   font-style: normal; /* Specify the font style */
 }
 
 @font-face {
-  font-family: 'titleFont'; /* This is the name you will use to refer to the font */
-  src: url('../public/ArchivoBlack-Regular.ttf') format('truetype'); /* Path to your font file */
+  font-family: "titleFont"; /* This is the name you will use to refer to the font */
+  src: url("../public/ArchivoBlack-Regular.ttf") format("truetype"); /* Path to your font file */
   font-weight: 200; /* Specify the font weight */
   font-style: normal; /* Specify the font style */
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -31,10 +31,8 @@ code {
   color: #e2396c;
 }
 
-
-
 h1 {
-  font-size: 3.0rem;
+  font-size: 3rem;
   font-weight: 100;
   color: white;
   text-align: center;
@@ -56,7 +54,9 @@ h1 {
   z-index: 0;
   font-size: 40px;
   color: #fff;
-  font-family: homeFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: homeFont, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 .arrow {
@@ -90,7 +90,9 @@ h1 {
   font-size: 6vw;
   color: #d5990c00;
   text-shadow: 1px 0px 5px rgb(192, 51, 223);
-  font-family: titleFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: titleFont, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
 }
 .titlehome3:hover {
   text-shadow: 1px 0px 5px rgb(203, 110, 223);
@@ -104,33 +106,75 @@ h1 {
   z-index: 0;
   font-size: 40px;
   color: #fff;
-  font-family: homeFont, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  font-family: homeFont, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 .homepage1 {
   background-color: #1a1e21;
   height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .App-header {
   top: -10px;
-  left: 0;
+  overflow-x: hidden;
   width: 100%;
+  left: 10%;
   height: 90px;
-  text-align: center;
-  align-items: center;
-  align-self: center;
   align-content: center;
-  background-color: #08090b;
+  background-color: #10141d;
+  font-size: 28px;
+  margin-right: -50%;
   z-index: 0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.567);
   font-family: homeFont;
   color: white;
 }
 
+.App-text {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  left: 7%;
+  top: 0%;
+  margin-right: -5%;
+  align-content: center;
+}
+.App-textlogo {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  left: 3%;
+  top: 0%;
+  margin-right: -5%;
+  align-content: center;
+}
+
+.App-logo {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  left: 0;
+  top: 0%;
+  margin-left: -5%;
+  align-content: center;
+  text-align: right;
+}
+
 .redGradient {
-  background: linear-gradient(to bottom, #ff002f,  #e9263d,#e96868);
+  background: linear-gradient(to bottom, #ff002f, #e9263d, #e96868);
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+  background-clip: text; /* For non-WebKit browsers */
+  z-index: 10;
+  top: -10vh;
+}
+
+.yellowGradient {
+  background: linear-gradient(to bottom, #ebeb07, #eae054, #eada74);
   -webkit-background-clip: text; /* Clip the background to the text */
   -webkit-text-fill-color: transparent; /* Make the text color transparent */
   background-clip: text; /* For non-WebKit browsers */
@@ -139,7 +183,7 @@ h1 {
 }
 
 .blueGradient {
-  background: linear-gradient(to bottom, #007bff,  #2192ef,#80f4e7);
+  background: linear-gradient(to bottom, #007bff, #2192ef, #0ebee5);
   -webkit-background-clip: text; /* Clip the background to the text */
   -webkit-text-fill-color: transparent; /* Make the text color transparent */
   background-clip: text; /* For non-WebKit browsers */
@@ -166,7 +210,7 @@ h1 {
 
 .sectcover {
   top: 0vh;
- padding-top: 1px;
+  padding-top: 1px;
   position: relative;
   height: 400vh;
   width: 100%;
@@ -176,7 +220,7 @@ h1 {
 .gradient-text {
   font-size: 50px; /* Adjust font size as needed */
   font-weight: lighter; /* Make it bold */
-  background: linear-gradient(to bottom, #ff9100,  #f4a333,#f1b35d);
+  background: linear-gradient(to bottom, #ff9100, #f4a333, #f1b35d);
   -webkit-background-clip: text; /* Clip the background to the text */
   -webkit-text-fill-color: transparent; /* Make the text color transparent */
   background-clip: text; /* For non-WebKit browsers */
