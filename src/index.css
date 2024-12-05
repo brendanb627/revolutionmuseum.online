@@ -174,7 +174,7 @@ h1 {
 }
 
 .yellowGradient {
-  background: linear-gradient(to bottom, #ebeb07, #eae054, #eada74);
+  background: linear-gradient(to bottom, #067522, #0d7624, #5eab6c);
   -webkit-background-clip: text; /* Clip the background to the text */
   -webkit-text-fill-color: transparent; /* Make the text color transparent */
   background-clip: text; /* For non-WebKit browsers */

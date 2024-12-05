@@ -192,11 +192,10 @@ export const HomePage = () => {
             }}
           >
             <Typography variant="h4" sx={{ color: "#F5F", fontWeight: 600 }}>
-              Anti-Abolitionists
+            <span className="yellowGradient">Anti-Abolitionists</span>
             </Typography>
             <Typography variant="body2">
-              Learn about the Anti-Abolotionist POV through different primary
-              sources
+              This is unfinished
             </Typography>
             <Link to={`/not-finished`}>
               <Button variant="contained" sx={{ marginTop: 1 }}>
@@ -216,7 +215,7 @@ export const HomePage = () => {
             }}
           >
             <Typography variant="h4" sx={{ color: "#F5F", fontWeight: 600 }}>
-              Abolitionists
+            <span className="yellowGradient">Abolitionists</span>
             </Typography>
             <Typography variant="body2">
               Learn about the abolitionist POV through different primary sources

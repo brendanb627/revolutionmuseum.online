@@ -113,6 +113,39 @@ export const Patriots = () => {
             . Accessed 4 Dec. 2024.
             <br />
             <br />
+            Germain, Edward. “Join or Die Snake Cartoon: Origin, Significance,
+            Meaning.” AmericanRevolution.Org.{" "}
+            <a
+              href="https://www.americanrevolution.org/join-or-die/"
+              target="_blank"
+            >
+              www.americanrevolution.org/join-or-die/
+            </a>
+            . Accessed 5 Dec. 2024.
+            <br />
+            <br />
+            “How Benjamin Franklin’s Viral Political Cartoon United the 13
+            Colonies.” History.Com, A&E Television Networks.{" "}
+            <a
+              href="https://www.history.com/news/ben-franklin-join-or-die-cartoon-french-indian-war"
+              target="_blank"
+            >
+              www.history.com/news/ben-franklin-join-or-die-cartoon-french-indian-war
+            </a>
+            . Accessed 5 Dec. 2024.
+            <br />
+            <br />
+            Dalton, Kyle. “Bostonians in Distress, 1774.” British Tars,
+            1740-1790.{" "}
+            <a
+              href="https://www.britishtars.com/2017/07/bostonians-in-distress-1774.html"
+              target="_blank"
+            >
+              www.britishtars.com/2017/07/bostonians-in-distress-1774.html
+            </a>
+            . Accessed 5 Dec. 2024.
+            <br />
+            <br />
           </p>
         </div>
       </div>

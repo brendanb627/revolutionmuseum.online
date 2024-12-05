@@ -56,8 +56,7 @@ export const Loyalists = () => {
     <div className="App">
       <div className="App-header">
         <h1>
-          <span className="blueGradient">Loyalists</span> view on the American
-          Revolution
+          <span className="blueGradient">Loyalists</span>POV
         </h1>
       </div>
       <div className="virtual-museum">
@@ -67,7 +66,7 @@ export const Loyalists = () => {
         <div className="sect">
           <h2 className="gradient-text">Image Sources</h2>
           <p>
-          The images used in this virtual museum are from the following
+            The images used in this virtual museum are from the following
             sources:
             <br />
             <br />
@@ -108,7 +107,80 @@ export const Loyalists = () => {
         <div className="sect">
           <h2 className="gradient-text">Text Sources</h2>
           <p>
-          The text used in this virtual museum are from the following sources:
+            The text used in this virtual museum are from the following sources:
+            <br />
+            <br />
+            “The British Lion Engaging Four Powers: Royal Museums Greenwich.”
+            Royal Museums Greenwich.{" "}
+            <a
+              href="https://www.rmg.co.uk/collections/objects/rmgc-object-128053"
+              target="_blank"
+            >
+              www.rmg.co.uk/collections/objects/rmgc-object-128053
+            </a>
+            . Accessed 4 Dec. 2024.
+            <br />
+            <br />
+            The British lion engaging four powers. Library of Congress.{" "}
+            <a href="https://www.loc.gov/item/2004673480" target="_blank">
+              www.loc.gov/item/2004673480
+            </a>
+            . Accessed 4 Dec. 2024.
+            <br />
+            <br />
+            “Massachusetts Historical Society. Founded 1791.” MHS Collections
+            Online: The Bostonians Paying the Excise-Man or Tarring &
+            Feathering.{" "}
+            <a
+              href="https://www.masshist.org/database/viewer.php?item_id=6626&pid=3"
+              target="_blank"
+            >
+              www.masshist.org/database/viewer.php?item_id=6626&pid=3
+            </a>
+            . Accessed 4 Dec. 2024.
+            <br />
+            <br />
+            Germain, Edward. “American Revolution Propaganda: Examples &
+            Themes.” AmericanRevolution.Org.{" "}
+            <a
+              href="https://www.americanrevolution.org/propaganda/"
+              target="_blank"
+            >
+              www.americanrevolution.org/propaganda/
+            </a>
+            . Accessed 4 Dec. 2024.
+            <br />
+            <br />
+            Shelburne's Sacrifice [graphic]. Library of Congress.{" "}
+            <a
+              href="https://www.loc.gov/pictures/item/2004673514/"
+              target="_blank"
+            >
+              www.loc.gov/pictures/item/2004673514/
+            </a>
+            . Accessed 4 Dec. 2024.
+            <br />
+            <br />
+            Shelburne's Sacrifice: Caricature on the Treaty of Paris. Granger
+            Historical Picture Archive.{" "}
+            <a
+              href="https://www.granger.com/results.asp?image=0126753"
+              target="_blank"
+            >
+              www.granger.com/results.asp?image=0126753
+            </a>
+            . Accessed 4 Dec. 2024.
+            <br />
+            <br />
+            Shelburne's Sacrifice [graphic]. Yale University Library Digital
+            Collections.{" "}
+            <a
+              href="https://collections.library.yale.edu/catalog/10724705"
+              target="_blank"
+            >
+              collections.library.yale.edu/catalog/10724705
+            </a>
+            . Accessed 4 Dec. 2024.
             <br />
             <br />
           </p>
