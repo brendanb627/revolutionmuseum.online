@@ -24,7 +24,7 @@ export const VirtualMuseum = ({ images }) => (
         <planeGeometry args={[50, 50]} />
         <MeshReflectorMaterial
           blur={[300, 100]}
-          resolution={2048}
+          resolution={800} // Lower resolution
           mixBlur={1}
           mixStrength={80}
           roughness={1}
@@ -53,8 +53,9 @@ function Frames({
     clicked.current = ref.current.getObjectByName(params?.id);
     if (clicked.current) {
       clicked.current.parent.updateWorldMatrix(true, true);
-      clicked.current.parent.localToWorld(p.set(0, GOLDENRATIO / 2, clicked.current.viewname == "" ? 0.7 : 1.25));
-      console.log(clicked.current)
+      clicked.current.parent.localToWorld(
+        p.set(0, GOLDENRATIO / 2, clicked.current.viewname == "" ? 0.7 : 1.25)
+      );
       clicked.current.parent.getWorldQuaternion(q);
     } else {
       p.set(0, 0, 5.5);
@@ -76,9 +77,9 @@ function Frames({
       )}
       onPointerMissed={() => setLocation("/")}
     >
-      {images.map(
-        (props) => <Frame key={props.url} {...props} />
-      )}
+      {images.map((props) => (
+        <Frame key={props.url} {...props} />
+      ))}
     </group>
   );
 }
@@ -90,8 +91,8 @@ function Frame({ url, c = new THREE.Color(), ...props }) {
   const [hovered, hover] = useState(false);
   const [rnd] = useState(() => Math.random());
   const name = getUuid(url);
-  const viewname = props.viewname
-  const size = [props.size[0], props.size[1], 0.05]
+  const viewname = props.viewname;
+  const size = [props.size[0], props.size[1], 0.05];
   const isActive = params?.id === name;
   useCursor(hovered);
   useFrame((state, dt) => {
@@ -149,7 +150,7 @@ function Frame({ url, c = new THREE.Color(), ...props }) {
         maxWidth={0.5}
         anchorX="left"
         anchorY="top"
-        position={[size[0] / 1.85, 1.61  + ((size[1] - 1.61) / 2), 0]}
+        position={[size[0] / 1.85, 1.61 + (size[1] - 1.61) / 2, 0]}
         fontSize={0.035}
       >
         {viewname}

@@ -19,7 +19,7 @@ const theme = createTheme({
 export const HomePage = () => {
   return (
     <Box className='homepage1' sx={{ padding: 0, textAlign: 'left' }}>
-      <Typography variant="h4" gutterBottom className='App-header'>
+      <Typography variant="h5" gutterBottom className='App-header'>
         The Different points of view in American history
       </Typography>
       <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'left' }}>
@@ -29,11 +29,12 @@ export const HomePage = () => {
        
               sx={{
                 backgroundColor: '#21262a;',
-                border: '1px solid #55A',
+                border: '0px solid #55A',
                 borderRadius: 2,
                 margin: 2,
                 padding: 3,
                 width: '30vw',
+                boxShadow: '0px 3px 8px rgba(0, 0, 0, 0.567)'
               }}
             >
               <Typography variant="h4" sx={{color: '#fff', fontWeight: 600, }}><span className='redGradient'>Patriots</span> </Typography>
@@ -48,11 +49,13 @@ export const HomePage = () => {
        
               sx={{
                 backgroundColor: '#21262a;',
-                border: '1px solid #55A',
+                border: '0px solid #55A',
                 borderRadius: 2,
                 margin: 2,
                 padding: 3,
                 width: '30vw',
+                boxShadow: '0px 3px 8px rgba(0, 0, 0, 0.567)'
+
               }}
             >
               <Typography variant="h4" sx={{color: '#F5F', fontWeight: 600, }}>Native Americans </Typography>
@@ -67,11 +70,12 @@ export const HomePage = () => {
        
               sx={{
                 backgroundColor: '#21262a;',
-                border: '1px solid #55A',
+                border: '0px solid #55A',
                 borderRadius: 2,
                 margin: 2,
                 padding: 3,
                 width: '30vw',
+                boxShadow: '0px 3px 8px rgba(0, 0, 0, 0.567)'
               }}
             >
               <Typography variant="h4" sx={{color: '#fff', fontWeight: 600, }}><span className='blueGradient'>Loyalists</span> </Typography>
@@ -90,11 +94,12 @@ export const HomePage = () => {
 
               sx={{
                 backgroundColor: '#21262a',
-                border: '1px solid #55A',
+                border: '0px solid #55A',
                 borderRadius: 2,
                 margin: 2,
                 padding: 3,
                 width: '47vw',
+                boxShadow: '0px 3px 8px rgba(0, 0, 0, 0.567)'
               }}
             >
               <Typography variant="h4" sx={{color: '#F5F', fontWeight: 600, }}><span className='redGradient'>Anti-Federalists</span> </Typography>
@@ -109,11 +114,12 @@ export const HomePage = () => {
 
               sx={{
                 backgroundColor: '#21262a',
-                border: '1px solid #55A',
+                border: '0px solid #55A',
                 borderRadius: 2,
                 margin: 2,
                 padding: 3,
                 width: '47vw',
+                boxShadow: '0px 3px 8px rgba(0, 0, 0, 0.567)'
               }}
             >
               <Typography variant="h4" sx={{color: '#F5F', fontWeight: 600, }}><span className='blueGradient'>Federalists</span> </Typography>
@@ -131,11 +137,12 @@ export const HomePage = () => {
         <Box
               sx={{
                 backgroundColor: '#21262a',
-                border: '1px solid #55A',
+                border: '0px solid #55A',
                 borderRadius: 2,
                 margin: 2,
                 padding: 3,
                 width: '47vw',
+                boxShadow: '0px 3px 8px rgba(0, 0, 0, 0.567)'
               }}
             >
               <Typography variant="h4" sx={{color: '#F5F', fontWeight: 600, }}>Anti-Abolitionists</Typography>
@@ -149,11 +156,12 @@ export const HomePage = () => {
             <Box
               sx={{
                 backgroundColor: '#21262a',
-                border: '1px solid #55A',
+                border: '0px solid #55A',
                 borderRadius: 2,
                 margin: 2,
                 padding: 3,
                 width: '47vw',
+                boxShadow: '0px 3px 8px rgba(0, 0, 0, 0.567)'
               }}
             >
               <Typography variant="h4" sx={{color: '#F5F', fontWeight: 600, }}>Abolitionists</Typography>

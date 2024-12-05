@@ -108,7 +108,9 @@ export const Loyalists = () => {
         <div className="sect">
           <h2 className="gradient-text">Text Sources</h2>
           <p>
-            
+          The text used in this virtual museum are from the following sources:
+            <br />
+            <br />
           </p>
         </div>
       </div>

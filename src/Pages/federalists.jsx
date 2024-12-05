@@ -126,6 +126,17 @@ export const Federalists = () => {
             . Accessed 3 Dec. 2024.
             <br />
             <br />
+            “A Peep into the Anti-Federal Club.” William L. Clements Library
+            Image Bank.{" "}
+            <a
+              href="https://quod.lib.umich.edu/w/wcl1ic/x-9121/wcl009196"
+              target="_blank"
+            >
+              quod.lib.umich.edu/w/wcl1ic/x-9121/wcl009196
+            </a>
+            . Accessed 4 Dec. 2024.
+            <br />
+            <br />
           </p>
         </div>
       </div>

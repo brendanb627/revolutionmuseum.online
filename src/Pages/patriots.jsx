@@ -77,14 +77,18 @@ export const Patriots = () => {
             Congress,{" "}
             <a href="https://www.loc.gov/item/2004673305" target="_blank">
               www.loc.gov/item/2004673305
-            </a><br/><br/>
+            </a>
+            <br />
+            <br />
             Revere, Paul, Engraver. The bloody massacre perpetrated in King
             Street Boston on March 5th by a party of the 29th Regt. Boston:
             Engrav'd Printed & Sold by Paul Revere. Photograph. Retrieved from
             the Library of Congress,{" "}
             <a href="https://www.loc.gov/item/2008661777" target="_blank">
               www.loc.gov/item/2008661777.
-            </a><br/><br/>
+            </a>
+            <br />
+            <br />
             Franklin, Benjamin. Join or Die. [May 9] Photograph. Retrieved from
             the Library of Congress,{" "}
             <a href="https://www.loc.gov/item/2002695523" target="_blank">
@@ -95,7 +99,20 @@ export const Patriots = () => {
         <div className="sect">
           <h2 className="gradient-text">Text Sources</h2>
           <p>
-            
+            The text used in this virtual museum are from the following sources:
+            <br />
+            <br />
+            “Constitution Expert: Political Cartoons, Newspapers Paved the Way
+            for Constitution’s Ratification.” GV Next.{" "}
+            <a
+              href="https://www.gvsu.edu/gvnext/2021/constitution-expert-political-cartoons-newspapers-paved-the-way-for-constitutions-ratification-2.htm"
+              target="_blank"
+            >
+              www.gvsu.edu/gvnext/2021/constitution-expert-political-cartoons-newspapers-paved-the-way-for-constitutions-ratification-2.htm
+            </a>
+            . Accessed 4 Dec. 2024.
+            <br />
+            <br />
           </p>
         </div>
       </div>
