@@ -49,7 +49,7 @@ export const Abolitionists = () => {
           <h2 className="gradient-text">Image Sources</h2>
           <p>
             “The Anti-Slavery Harp: A Collection of Songs for Anti-Slavery
-            Meetings : Brown, William Wells, 1815-1884 Comp : Free Download,
+            Meetings: Brown, William Wells, 1815-1884 Comp: Free Download,
             Borrow, and Streaming.” Internet Archive, Boston, B. Marsh, 1 Jan.
             1970,
             <a href="https://archive.org/details/antislaveryharpc00brow/page/n3/mode/2up">
