@@ -51,7 +51,7 @@ export const Abolitionists = () => {
             “The Anti-Slavery Harp: A Collection of Songs for Anti-Slavery
             Meetings : Brown, William Wells, 1815-1884 Comp : Free Download,
             Borrow, and Streaming.” Internet Archive, Boston, B. Marsh, 1 Jan.
-            1970,{" "}
+            1970,
             <a href="https://archive.org/details/antislaveryharpc00brow/page/n3/mode/2up">
               archive.org/details/antislaveryharpc00brow/page/n3/mode/2up
             </a>
@@ -73,7 +73,7 @@ export const Abolitionists = () => {
             <br />
             “The ANTI-SLAVERY Harp: Collection of Songs for Anti-Slavery
             Meetings.” The Project Gutenberg eBook of The Anti-Slavery Harp:
-            Collection of Songs For Anti-Slavery Meetings, by William W. Brown.{" "}
+            Collection of Songs For Anti-Slavery Meetings, by William W. Brown.
             <a
               href="https://www.gutenberg.org/files/58414/58414-h/58414-h.htm"
               target="_blank"
@@ -84,7 +84,7 @@ export const Abolitionists = () => {
             <br />
             <br />
             “1.2: The Slavery Controversy and Abolitionist Literature.”
-            Humanities LibreTexts, Libretexts, 1 Feb. 2022.{" "}
+            Humanities LibreTexts, Libretexts, 1 Feb. 2022.
             <a
               href="https://human.libretexts.org/Courses/Sacramento_City_College/ENGLT_331%3A_African-American_Literature_(1730-1930)_(White)/01%3A_Chapter_1/1.02%3A_The_Slavery_Controversy_and_Abolitionist_Literature"
               target="_blank"

@@ -70,11 +70,11 @@ export const Patriots = () => {
             sources:
             <br />
             <br />
-            Robert Sayer And John Bennett , Publisher.{" "}
+            Robert Sayer And John Bennett , Publisher.
             <i>The Bostonians in Distress</i>. London: Printed for R. Sayer and
             J. Bennett, Map & Printsellers, No. 53 Fleet Street, as the Act
             directs, Novr. 19. Photograph. Retrieved from the Library of
-            Congress,{" "}
+            Congress,
             <a href="https://www.loc.gov/item/2004673305" target="_blank">
               www.loc.gov/item/2004673305
             </a>
@@ -83,14 +83,14 @@ export const Patriots = () => {
             Revere, Paul, Engraver. The bloody massacre perpetrated in King
             Street Boston on March 5th by a party of the 29th Regt. Boston:
             Engrav'd Printed & Sold by Paul Revere. Photograph. Retrieved from
-            the Library of Congress,{" "}
+            the Library of Congress,
             <a href="https://www.loc.gov/item/2008661777" target="_blank">
               www.loc.gov/item/2008661777.
             </a>
             <br />
             <br />
             Franklin, Benjamin. Join or Die. [May 9] Photograph. Retrieved from
-            the Library of Congress,{" "}
+            the Library of Congress,
             <a href="https://www.loc.gov/item/2002695523" target="_blank">
               www.loc.gov/item/2002695523
             </a>
@@ -103,7 +103,7 @@ export const Patriots = () => {
             <br />
             <br />
             “Constitution Expert: Political Cartoons, Newspapers Paved the Way
-            for Constitution’s Ratification.” GV Next.{" "}
+            for Constitution’s Ratification.” GV Next.
             <a
               href="https://www.gvsu.edu/gvnext/2021/constitution-expert-political-cartoons-newspapers-paved-the-way-for-constitutions-ratification-2.htm"
               target="_blank"
@@ -114,7 +114,7 @@ export const Patriots = () => {
             <br />
             <br />
             Germain, Edward. “Join or Die Snake Cartoon: Origin, Significance,
-            Meaning.” AmericanRevolution.Org.{" "}
+            Meaning.” AmericanRevolution.Org.
             <a
               href="https://www.americanrevolution.org/join-or-die/"
               target="_blank"
@@ -125,7 +125,7 @@ export const Patriots = () => {
             <br />
             <br />
             “How Benjamin Franklin’s Viral Political Cartoon United the 13
-            Colonies.” History.Com, A&E Television Networks.{" "}
+            Colonies.” History.Com, A&E Television Networks.
             <a
               href="https://www.history.com/news/ben-franklin-join-or-die-cartoon-french-indian-war"
               target="_blank"
@@ -136,7 +136,7 @@ export const Patriots = () => {
             <br />
             <br />
             Dalton, Kyle. “Bostonians in Distress, 1774.” British Tars,
-            1740-1790.{" "}
+            1740-1790.
             <a
               href="https://www.britishtars.com/2017/07/bostonians-in-distress-1774.html"
               target="_blank"

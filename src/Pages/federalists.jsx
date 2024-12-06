@@ -73,7 +73,7 @@ export const Federalists = () => {
             <br />
             <br />
             Germain, Edward. “American Revolution Political Cartoons: 9
-            Examples.” AmericanRevolution.Org.{" "}
+            Examples.” AmericanRevolution.Org.
             <a
               href="https://www.americanrevolution.org/american-revolution-political-cartoons/"
               target="_blank"
@@ -86,7 +86,7 @@ export const Federalists = () => {
             “Massachusetts Historical Society. Founded 1791.” MHS Collections
             Online: The Bostonians Paying the Excise-Man or Tarring &
             Feathering; Copied on Stone by D. C. Johnston from a Print Published
-            in London in 1774.{" "}
+            in London in 1774.
             <a
               href="https://www.masshist.org/database/viewer.php?item_id=6626&pid=3"
               target="_blank"
@@ -97,7 +97,7 @@ export const Federalists = () => {
             <br />
             <br />
             Britannica, The Editors of Encyclopaedia. "Loyalist." Encyclopedia
-            Britannica, 25 Nov. 2024.{" "}
+            Britannica, 25 Nov. 2024.
             <a href="https://www.britannica.com/topic/loyalist" target="_blank">
               www.britannica.com/topic/loyalist
             </a>
@@ -105,7 +105,7 @@ export const Federalists = () => {
             <br />
             <br />
             Germain, Edward. “American Revolution Propaganda: Examples &
-            Themes.” AmericanRevolution.Org.{" "}
+            Themes.” AmericanRevolution.Org.
             <a
               href="https://www.americanrevolution.org/propaganda/"
               target="_blank"
@@ -116,7 +116,7 @@ export const Federalists = () => {
             <br />
             <br />
             “The British Lion Engaging Four Powers: Royal Museums Greenwich.”
-            The British Lion Engaging Four Powers | Royal Museums Greenwich.{" "}
+            The British Lion Engaging Four Powers | Royal Museums Greenwich.
             <a
               href="https://www.rmg.co.uk/collections/objects/rmgc-object-128053"
               target="_blank"
@@ -127,7 +127,7 @@ export const Federalists = () => {
             <br />
             <br />
             “A Peep into the Anti-Federal Club.” William L. Clements Library
-            Image Bank.{" "}
+            Image Bank.
             <a
               href="https://quod.lib.umich.edu/w/wcl1ic/x-9121/wcl009196"
               target="_blank"

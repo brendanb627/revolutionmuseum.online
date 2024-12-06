@@ -30,7 +30,7 @@ export const HomePage = () => {
         <Box className="App-logo" gutterBottom>
           The different POVs of American History
         </Box>
-        <Box className='App-text'><span className="redGradient">Revolution</span>{" "}
+        <Box className='App-text'><span className="redGradient">Revolution</span>
         <span className="blueGradient">Museum</span></Box>
         <Box className='App-textlogo'><img src="logo.png" width={50}></img></Box>
       </Box>
@@ -58,7 +58,7 @@ export const HomePage = () => {
             }}
           >
             <Typography variant="h4" sx={{ color: "#fff", fontWeight: 600 }}>
-              <span className="redGradient">Patriots</span>{" "}
+              <span className="redGradient">Patriots</span>
             </Typography>
             <Typography variant="body2">
               Learn about their view on the American Revolution through
@@ -106,7 +106,7 @@ export const HomePage = () => {
             }}
           >
             <Typography variant="h4" sx={{ color: "#fff", fontWeight: 600 }}>
-              <span className="blueGradient">Loyalists</span>{" "}
+              <span className="blueGradient">Loyalists</span>
             </Typography>
             <Typography variant="body2">
               Learn about their view on the American Revolution through
@@ -141,11 +141,10 @@ export const HomePage = () => {
             }}
           >
             <Typography variant="h4" sx={{ color: "#F5F", fontWeight: 600 }}>
-              <span className="redGradient">Anti-Federalists</span>{" "}
+              <span className="redGradient">Anti-Federalists</span>
             </Typography>
             <Typography variant="body2">
-              Learn about the Anti-Federalist POV through different primary
-              sources
+              This is unfinished
             </Typography>
             <Link to={`/not-finished`}>
               <Button variant="contained" sx={{ marginTop: 1 }}>
@@ -165,7 +164,7 @@ export const HomePage = () => {
             }}
           >
             <Typography variant="h4" sx={{ color: "#F5F", fontWeight: 600 }}>
-              <span className="blueGradient">Federalists</span>{" "}
+              <span className="blueGradient">Federalists</span>
             </Typography>
             <Typography variant="body2">
               Learn about the Federalist POV through different primary sources

@@ -53,7 +53,7 @@ export const NativeAmericans = () => {
             <br />
             <br />
             Stuart, Gilbert. “Portrait of Joseph Brant by Gilbert Stuart.” Fine
-            Art America.{" "}
+            Art America.
             <a
               href="https://fineartamerica.com/featured/portrait-of-joseph-brant-gilbert-stuart.html"
               target="_blank"
@@ -64,7 +64,7 @@ export const NativeAmericans = () => {
             <br />
             <br />
             “A 1912 Tribute to Chief Shenendoah - Oneida Indian Nation.” Oneida
-            Indian Nation, 29 Jan. 2024.{" "}
+            Indian Nation, 29 Jan. 2024.
             <a
               href="https://www.oneidaindiannation.com/a-1912-tribute-to-chief-shenendoah/"
               target="_blank"
@@ -79,7 +79,34 @@ export const NativeAmericans = () => {
         <div className="sect">
           <h2 className="gradient-text">Text Sources</h2>
           <p>
-          The text used in this virtual museum are from the following sources:
+            The text used in this virtual museum are from the following sources:
+            <br />
+            <br />
+            “Skenandoah (U.S. National Park Service).” National Parks Service,
+            U.S. Department of the Interior.
+            <a href="https://www.nps.gov/people/skenandoah.htm" target="_blank">
+              www.nps.gov/people/skenandoah.htm
+            </a>
+            . Accessed 6 Dec. 2024.
+            <br />
+            <br />
+            “Revolutionary Limits: Native Americans.” Ushistory.Org,
+            Independence Hall Association.
+            <a href="https://www.ushistory.org/us/13f.asp" target="_blank">
+              www.ushistory.org/us/13f.asp
+            </a>
+            . Accessed 6 Dec. 2024.
+            <br />
+            <br />
+            “A 1912 Tribute to Chief Shenendoah - Oneida Indian Nation.” Oneida
+            Indian Nation, 29 Jan. 2024.
+            <a
+              href="https://www.oneidaindiannation.com/a-1912-tribute-to-chief-shenendoah/"
+              target="_blank"
+            >
+              www.oneidaindiannation.com/a-1912-tribute-to-chief-shenendoah/
+            </a>
+            .
             <br />
             <br />
           </p>
